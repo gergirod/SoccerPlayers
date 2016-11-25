@@ -22,7 +22,7 @@ public class Player implements Parcelable{
     }
 
     public String getJerseyNumber() {
-        return jerseyNumber;
+        return jerseyNumber == null ? "0": jerseyNumber;
     }
 
     public Person getPerson() {

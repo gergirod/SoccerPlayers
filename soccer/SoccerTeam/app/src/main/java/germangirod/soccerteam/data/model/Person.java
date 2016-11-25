@@ -20,11 +20,11 @@ public class Person implements Parcelable {
     public String imageUrl;
 
     public String getFirstName() {
-        return firstName;
+        return firstName == null ? "Name": firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return lastName == null ? "Last Name": lastName;
     }
 
     public String getImageUrl() {
