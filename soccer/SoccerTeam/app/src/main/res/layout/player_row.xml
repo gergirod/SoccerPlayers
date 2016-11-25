@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/player_image"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                fresco:placeholderImage="@mipmap/ic_launcher" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_first_name"
+                android:textColor="@color/white"
+                android:layout_below="@id/player_image"
+                android:layout_alignParentLeft="true"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_last_name"
+                android:textColor="@color/white"
+                android:layout_below="@id/player_first_name"
+                android:layout_alignParentLeft="true"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_jersey_number"
+                android:textColor="@color/white"
+                android:layout_below="@id/player_first_name"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+</RelativeLayout>
