@@ -1,4 +1,4 @@
-package germangirod.soccerteam.ui;
+package germangirod.soccerteam.ui.util;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

@@ -1,4 +1,4 @@
-package germangirod.soccerteam.ui;
+package germangirod.soccerteam.ui.fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -19,7 +19,10 @@ import germangirod.soccerteam.data.presenters.PlayerData;
 import germangirod.soccerteam.data.presenters.PlayerPresenter;
 import germangirod.soccerteam.data.presenters.TeamData;
 import germangirod.soccerteam.data.presenters.TeamPresenter;
+import germangirod.soccerteam.ui.adapter.PlayersAdapter;
 import germangirod.soccerteam.ui.util.AlertUtil;
+import germangirod.soccerteam.ui.util.GridItemDecoration;
+import germangirod.soccerteam.ui.util.PlayerClick;
 import java.util.ArrayList;
 import java.util.List;
 

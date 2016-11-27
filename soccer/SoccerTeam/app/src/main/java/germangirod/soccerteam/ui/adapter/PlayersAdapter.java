@@ -1,4 +1,4 @@
-package germangirod.soccerteam.ui;
+package germangirod.soccerteam.ui.adapter;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import germangirod.soccerteam.R;
 import germangirod.soccerteam.data.model.Player;
+import germangirod.soccerteam.ui.adapter.holder.PlayerHolder;
+import germangirod.soccerteam.ui.util.PlayerClick;
+import germangirod.soccerteam.ui.util.ViewClick;
 import java.util.List;
 
 /**

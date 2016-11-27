@@ -1,4 +1,4 @@
-package germangirod.soccerteam.ui;
+package germangirod.soccerteam.ui.adapter.holder;
 
 import android.graphics.drawable.Animatable;
 import android.net.Uri;
@@ -15,6 +15,7 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import com.facebook.imagepipeline.core.ImagePipeline;
 import com.facebook.imagepipeline.image.ImageInfo;
 import germangirod.soccerteam.R;
+import germangirod.soccerteam.ui.util.ViewClick;
 
 /**
  * Created by germangirod on 11/26/16.

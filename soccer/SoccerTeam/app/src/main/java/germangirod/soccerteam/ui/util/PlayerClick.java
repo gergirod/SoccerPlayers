@@ -1,4 +1,4 @@
-package germangirod.soccerteam.ui;
+package germangirod.soccerteam.ui.util;
 
 import germangirod.soccerteam.data.model.Player;
 

@@ -13,6 +13,6 @@ public interface Api {
 
     @GET("team.json") Observable<Team> getTeamData();
 
-    @GET("tapped.php") Observable<String> getPlayerData(@Query("") int teamId, @Query("") int playerId, @Query("firstName") String firstName,
+    @GET("tapped.php") Observable<String> getPlayerData(@Query("teamid") int teamId, @Query("playerid") int playerId, @Query("firstname") String firstName,
             @Query("lastname") String lastName);
 }

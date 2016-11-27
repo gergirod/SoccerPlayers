@@ -5,6 +5,7 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import germangirod.soccerteam.R;
+import germangirod.soccerteam.ui.fragment.TeamFragment;
 
 public class TeamActivity extends AppCompatActivity {
 
